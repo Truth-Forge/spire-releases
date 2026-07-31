@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Spire</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Thu, 30 Jul 2026 05:17:50 -0600</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.0.0-70/Spire-1.0.0-70.zip" length="39448298" type="application/octet-stream" sparkle:edSignature="/rqxsp5kkgstYqZXSzEfxpk/KRYxg6PuqX5Z5u24ZnKBWMSaK59TSYr9Fz6n0ZtwGz2Io+KQH5/leN6Y6erYDg=="/>
+        </item>
+    </channel>
+</rss>

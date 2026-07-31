@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spire — Downloads</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1d1d1f; --bg: #ffffff; --muted: #6e6e73; --rule: #d2d2d7;
+    --accent: #0071e3; --accent-fg: #ffffff; --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #f5f5f7; --bg: #101012; --muted: #a1a1a6; --rule: #3a3a3c; --card: #1c1c1e; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg); color: var(--fg);
+    display: flex; min-height: 100vh; flex-direction: column; align-items: center;
+    padding: 4rem 1.5rem 2rem;
+  }
+  main { max-width: 40rem; width: 100%; }
+  h1 { font-size: 3rem; font-weight: 700; letter-spacing: -0.02em; }
+  p.tagline { font-size: 1.25rem; color: var(--muted); margin-top: 0.5rem; line-height: 1.5; }
+  .download {
+    margin: 2.5rem 0 0.75rem;
+    display: inline-block; background: var(--accent); color: var(--accent-fg);
+    font-size: 1.05rem; font-weight: 600; text-decoration: none;
+    padding: 0.85rem 2.2rem; border-radius: 980px;
+  }
+  .download:hover { filter: brightness(1.1); }
+  p.meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2.5rem; }
+  .card { background: var(--card); border-radius: 14px; padding: 1.4rem 1.6rem; margin-top: 1rem; }
+  .card h2 { font-size: 1.05rem; margin-bottom: 0.5rem; }
+  .card p, .card li { color: var(--muted); font-size: 0.95rem; line-height: 1.55; }
+  .card ul { padding-left: 1.2rem; margin-top: 0.4rem; }
+  a { color: var(--accent); }
+  footer { margin-top: auto; padding-top: 3rem; color: var(--muted); font-size: 0.8rem; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Spire</h1>
+  <p class="tagline">An Apple-native macOS application for running Linux containers through
+  Apple's <code>container</code> runtime — with on-device MLX inference serving built in.</p>
+
+  <a class="download" href="https://github.com/Truth-Forge/spire-releases/releases/download/v1.0.0-70/Spire-1.0.0-70.zip">Download Spire 1.0.0</a>
+  <p class="meta">Notarized by Apple &middot; macOS 26 or later &middot; Apple silicon</p>
+
+  <div class="card">
+    <h2>Installation</h2>
+    <p>Unzip and drag <strong>Spire.app</strong> to your Applications folder. The app is signed
+    with a Developer ID certificate and notarized by Apple — it opens without warnings on a
+    standard Mac. Updates are delivered automatically inside the app.</p>
+  </div>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <ul>
+      <li>Plans and applies Apple <code>container</code> deployments from reviewable, typed manifests</li>
+      <li>Serves local MLX models (chat, embeddings, rerank) over an OpenAI-compatible endpoint</li>
+      <li>Exposes an MCP server so AI agents can drive deployments with operator-granted capabilities</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Problems or questions</h2>
+    <p>Found a bug or something confusing? <a href="https://github.com/Truth-Forge/spire-releases/issues">File an issue</a> —
+    reports are read. Release history lives on the
+    <a href="https://github.com/Truth-Forge/spire-releases/releases">releases page</a>.</p>
+  </div>
+</main>
+<footer>© 2026 Truth Forge LLC &middot; Spire is licensed under the Apache License 2.0</footer>
+</body>
+</html>
