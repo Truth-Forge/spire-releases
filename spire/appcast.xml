@@ -8,7 +8,7 @@
             <sparkle:version>74</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire-1.1.0-74.zip" length="39665370" type="application/octet-stream" sparkle:edSignature="rwXocmpr9Ad/aim/Frj/hO///J7ohouRHU1hCfM5g4N68IHVmPP34pWPnnDfWmBZ07FIR5nbt/DHOO2bYGtVDw==" />
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire-1.1.0-74.zip" length="39745662" type="application/octet-stream" sparkle:edSignature="ITQrxkPAFwh/2GSMlyHmgdYo2Mq1AO6CIYwGz9XiqvkSangokBruJEkefoljLyJ8oL+UT361h8ULn1MyV7NuBA==" />
             <sparkle:deltas>
                 <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire74-70.delta" sparkle:deltaFrom="70" length="3395146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wEZpyPdWUVeX/zmQ1U1dEYdY2fvOWCSEnvpF98WZO15bNYs5IJIs59JmlY53WBSbCAHy1rGLr3hfuFan2korBA==" />
             </sparkle:deltas>
