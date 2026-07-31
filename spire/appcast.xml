@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Spire</title>
@@ -8,7 +8,17 @@
             <sparkle:version>70</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.0.0-70/Spire-1.0.0-70.zip" length="39448298" type="application/octet-stream" sparkle:edSignature="/rqxsp5kkgstYqZXSzEfxpk/KRYxg6PuqX5Z5u24ZnKBWMSaK59TSYr9Fz6n0ZtwGz2Io+KQH5/leN6Y6erYDg=="/>
-        </item>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.0.0-70/Spire-1.0.0-70.zip" length="39448298" type="application/octet-stream" sparkle:edSignature="/rqxsp5kkgstYqZXSzEfxpk/KRYxg6PuqX5Z5u24ZnKBWMSaK59TSYr9Fz6n0ZtwGz2Io+KQH5/leN6Y6erYDg==" />
+        <description>&lt;p&gt;First distributed release.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Container control plane: typed &lt;code&gt;SpireDeployment&lt;/code&gt; manifests rendered into reviewable Apple &lt;code&gt;container&lt;/code&gt; commands, with a deny-by-default capability broker between the GUI/CLI and mutation.&lt;/li&gt;
+&lt;li&gt;MLX inference host (&lt;code&gt;spire-mlx&lt;/code&gt;): chat, embedding, and rerank roles served concurrently over an OpenAI-compatible endpoint with per-role health.&lt;/li&gt;
+&lt;li&gt;MCP server (&lt;code&gt;spire-mcp&lt;/code&gt;) so AI agents can drive deployments under operator-granted capabilities.&lt;/li&gt;
+&lt;li&gt;SwiftUI app with onboarding, settings, menu-bar presence, and Sparkle auto-update; &lt;code&gt;spire&lt;/code&gt; CLI sharing the same model.&lt;/li&gt;
+&lt;li&gt;Fleet daemon lifecycle: &lt;code&gt;spire-mlx install-daemon&lt;/code&gt; installs a system LaunchDaemon on headless hosts and fails loudly unless launchd reports the service running.&lt;/li&gt;
+&lt;li&gt;Signing chain: Developer ID, hardened runtime, notarization, stapling — verified with a quarantined copy on a second Mac.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[Unreleased]: https://github.com/Truth-Forge/spire-releases/releases [1.0.0]: https://github.com/Truth-Forge/spire-releases/releases/tag/v1.0.0-70&lt;/p&gt;</description></item>
     </channel>
 </rss>
