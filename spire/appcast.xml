@@ -3,6 +3,29 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Thu, 30 Jul 2026 21:02:59 -0600</pubDate>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire-1.1.0-74.zip" length="39665370" type="application/octet-stream" sparkle:edSignature="rwXocmpr9Ad/aim/Frj/hO///J7ohouRHU1hCfM5g4N68IHVmPP34pWPnnDfWmBZ07FIR5nbt/DHOO2bYGtVDw==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire74-70.delta" sparkle:deltaFrom="70" length="3395146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wEZpyPdWUVeX/zmQ1U1dEYdY2fvOWCSEnvpF98WZO15bNYs5IJIs59JmlY53WBSbCAHy1rGLr3hfuFan2korBA==" />
+            </sparkle:deltas>
+        <description>&lt;p&gt;The professionalization release: Spire now distributes, updates, explains, and removes itself the way a real product does.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Public distribution channel: download page and Sparkle feed at &lt;code&gt;updates.noeticaperture.com&lt;/code&gt;, artifacts on GitHub Releases (&lt;code&gt;Truth-Forge/spire-releases&lt;/code&gt;), public issue tracker.&lt;/li&gt;
+&lt;li&gt;Headless self-update: &lt;code&gt;spire-mlx update&lt;/code&gt; checks the feed, verifies both the EdDSA update signature and Apple notarization, and performs a stop → swap → reinstall → health-check → rollback cycle without a logged-in user. The daemon schedules a daily check on the Studios.&lt;/li&gt;
+&lt;li&gt;Diagnostics export: one command collects daemon logs, health state, crash reports, and redacted configuration into a single shareable archive.&lt;/li&gt;
+&lt;li&gt;Whole-app uninstall: removes the daemon, app bundle, configuration, logs, and (on request) model weights.&lt;/li&gt;
+&lt;li&gt;Help menu: links to the download page, release history, and issue tracker.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;scripts/publish-update.sh&lt;/code&gt; now publishes end-to-end: renders release notes from this changelog into the appcast, uploads the artifact to GitHub Releases, and updates the feed and download page.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Thu, 30 Jul 2026 05:17:50 -0600</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -19,6 +42,6 @@
 &lt;li&gt;Fleet daemon lifecycle: &lt;code&gt;spire-mlx install-daemon&lt;/code&gt; installs a system LaunchDaemon on headless hosts and fails loudly unless launchd reports the service running.&lt;/li&gt;
 &lt;li&gt;Signing chain: Developer ID, hardened runtime, notarization, stapling — verified with a quarantined copy on a second Mac.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;[Unreleased]: https://github.com/Truth-Forge/spire-releases/releases [1.0.0]: https://github.com/Truth-Forge/spire-releases/releases/tag/v1.0.0-70&lt;/p&gt;</description></item>
+&lt;p&gt;[Unreleased]: https://github.com/Truth-Forge/spire-releases/releases [1.1.0]: https://github.com/Truth-Forge/spire-releases/releases [1.0.0]: https://github.com/Truth-Forge/spire-releases/releases/tag/v1.0.0-70&lt;/p&gt;</description></item>
     </channel>
 </rss>
