@@ -3,6 +3,28 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.3.0</title>
+            <pubDate>Sun, 02 Aug 2026 18:15:56 -0600</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire-1.3.0-91.zip" length="41695624" type="application/octet-stream" sparkle:edSignature="9ZN+A1UZj5xwT1E0WRQmYZ4LgjvLhidVbyKXekueR9ZqG0PTr2Z/vjISBoIN+nlLgCwX++A/R8h/W0pWCcEaCw==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire91-84.delta" sparkle:deltaFrom="84" length="3331474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8sotvCUpI0cXoXOtt8f7IjhDAS2d8Wgcg2oTgifOI0WSybiH2nfNXPwxl4ElYyV+W/C/rfNbS9MGmYjHndsgBQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire91-74.delta" sparkle:deltaFrom="74" length="5742338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3AL3G03TU9Ud4IPeMGQu8Nl+jctOaKDiie6SbzYzKJZ7y3MuP5gZYdqgBpx+pk5IZ6I8HNXFwKLk7YKzivHZAg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire91-70.delta" sparkle:deltaFrom="70" length="7343258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KunENCEygh9VEwdaLXvOLw0eqoODnkyY2N84tU/IU3nMn1ma9YV6Bott432+qKCgozw/KFD1foTyCrEdyCRdBg==" />
+            </sparkle:deltas>
+        <description>&lt;p&gt;Installing Spire now brings its core organ with it: Apple&amp;#x27;s container tool arrives as part of Spire, never as an errand.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**The container tool installs itself**: when first-run setup finds Apple&amp;#x27;s container tool missing, Spire downloads Apple&amp;#x27;s own signed installer (pinned version, checksum-verified, signature-verified as Apple&amp;#x27;s Containerization team, notarization-checked) and opens it in the macOS Installer. Your only touch is the standard install flow; Spire notices when the tool arrives, starts the container system, and re-checks. A retry button appears only if something failed.&lt;/li&gt;
+&lt;li&gt;**Fleet installs carry the tool**: the fleet update lane now ensures the container tool on every Studio on every pass — installed over SSH with macOS&amp;#x27;s own installer when absent — and caches the verified package on the NAS so installs stay on the local network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The tool is used exactly as Apple built it — Spire&amp;#x27;s entire authorship is a one-line version pin; Apple maintains everything inside the tool.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Sun, 02 Aug 2026 17:42:18 -0600</pubDate>
             <sparkle:version>84</sparkle:version>
@@ -10,8 +32,8 @@
             <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.2.0-84/Spire-1.2.0-84.zip" length="41602275" type="application/octet-stream" sparkle:edSignature="gFci78I/kgReFtQnzkSlJBM+mYw7Z9n3+3KSI+NelycbzgEqGm6huz9jkUv8N9eKMmPfXhjEdMOM1tZSdvdvDQ==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.2.0-84/Spire84-74.delta" sparkle:deltaFrom="74" length="5453278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dPAmk/tjp9lZYCgVR2n91dPY5S7eJx8Pe2oqiW2W4b2aeond++AYg0cE3Ee+yTiPeRqExfYgbaRlZarX50OFCw==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.2.0-84/Spire84-70.delta" sparkle:deltaFrom="70" length="7176486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dwF1Hi9ubRSeUtu0zGW1gH7BMqy/5tcCYxOu+bk4WZvCq6SqW/yg7l04k7cfumPm87Crydz2CtC/UyHgWl4BDg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire84-74.delta" sparkle:deltaFrom="74" length="5453278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dPAmk/tjp9lZYCgVR2n91dPY5S7eJx8Pe2oqiW2W4b2aeond++AYg0cE3Ee+yTiPeRqExfYgbaRlZarX50OFCw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire84-70.delta" sparkle:deltaFrom="70" length="7176486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dwF1Hi9ubRSeUtu0zGW1gH7BMqy/5tcCYxOu+bk4WZvCq6SqW/yg7l04k7cfumPm87Crydz2CtC/UyHgWl4BDg==" />
             </sparkle:deltas>
         <description>&lt;p&gt;The front page grows a second surface: administering your endpoints is now as first-class as administering your apps.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
@@ -36,7 +58,7 @@
             <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.1.0-74/Spire-1.1.0-74.zip" length="39745662" type="application/octet-stream" sparkle:edSignature="ITQrxkPAFwh/2GSMlyHmgdYo2Mq1AO6CIYwGz9XiqvkSangokBruJEkefoljLyJ8oL+UT361h8ULn1MyV7NuBA==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.2.0-84/Spire74-70.delta" sparkle:deltaFrom="70" length="3395146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wEZpyPdWUVeX/zmQ1U1dEYdY2fvOWCSEnvpF98WZO15bNYs5IJIs59JmlY53WBSbCAHy1rGLr3hfuFan2korBA==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire74-70.delta" sparkle:deltaFrom="70" length="3395146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wEZpyPdWUVeX/zmQ1U1dEYdY2fvOWCSEnvpF98WZO15bNYs5IJIs59JmlY53WBSbCAHy1rGLr3hfuFan2korBA==" />
             </sparkle:deltas>
         <description>&lt;p&gt;The professionalization release: Spire now distributes, updates, explains, and removes itself the way a real product does.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
@@ -51,23 +73,5 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;scripts/publish-update.sh&lt;/code&gt; now publishes end-to-end: renders release notes from this changelog into the appcast, uploads the artifact to GitHub Releases, and updates the feed and download page.&lt;/li&gt;
 &lt;/ul&gt;</description></item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Thu, 30 Jul 2026 05:17:50 -0600</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.0.0-70/Spire-1.0.0-70.zip" length="39448298" type="application/octet-stream" sparkle:edSignature="/rqxsp5kkgstYqZXSzEfxpk/KRYxg6PuqX5Z5u24ZnKBWMSaK59TSYr9Fz6n0ZtwGz2Io+KQH5/leN6Y6erYDg==" />
-        <description>&lt;p&gt;First distributed release.&lt;/p&gt;
-&lt;h3&gt;Added&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Container control plane: typed &lt;code&gt;SpireDeployment&lt;/code&gt; manifests rendered into reviewable Apple &lt;code&gt;container&lt;/code&gt; commands, with a deny-by-default capability broker between the GUI/CLI and mutation.&lt;/li&gt;
-&lt;li&gt;MLX inference host (&lt;code&gt;spire-mlx&lt;/code&gt;): chat, embedding, and rerank roles served concurrently over an OpenAI-compatible endpoint with per-role health.&lt;/li&gt;
-&lt;li&gt;MCP server (&lt;code&gt;spire-mcp&lt;/code&gt;) so AI agents can drive deployments under operator-granted capabilities.&lt;/li&gt;
-&lt;li&gt;SwiftUI app with onboarding, settings, menu-bar presence, and Sparkle auto-update; &lt;code&gt;spire&lt;/code&gt; CLI sharing the same model.&lt;/li&gt;
-&lt;li&gt;Fleet daemon lifecycle: &lt;code&gt;spire-mlx install-daemon&lt;/code&gt; installs a system LaunchDaemon on headless hosts and fails loudly unless launchd reports the service running.&lt;/li&gt;
-&lt;li&gt;Signing chain: Developer ID, hardened runtime, notarization, stapling — verified with a quarantined copy on a second Mac.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;[Unreleased]: https://github.com/Truth-Forge/spire-releases/releases [1.1.0]: https://github.com/Truth-Forge/spire-releases/releases [1.0.0]: https://github.com/Truth-Forge/spire-releases/releases/tag/v1.0.0-70&lt;/p&gt;</description></item>
     </channel>
 </rss>
