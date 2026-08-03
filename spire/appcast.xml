@@ -3,6 +3,43 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.3.2</title>
+            <pubDate>Sun, 02 Aug 2026 19:29:43 -0600</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire-1.3.2-105.zip" length="41960371" type="application/octet-stream" sparkle:edSignature="zqfIbNon5c546PxGCvxwY3I2Qy+RJTc/fRtsTu4kkC4c5lvLOfcJGeo6Oj7eLuxCdVjexQjT8BZz/prNhgYwDw==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire105-104.delta" sparkle:deltaFrom="104" length="1566158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yvMzpBMIqv+DSgH1kZAmCPuOzxxjjn1guWGvmtjwpCh0Xr5DdrMmjDSk7VPcaoo4hiKuDFu7uEn8ftcpTpiRDA==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire105-98.delta" sparkle:deltaFrom="98" length="3374330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3nSqKYxsKcIkc2wIQHeRnW7rBvp4+HHJrroYpIubrDKe6EkH7WgCHjmTBjOLMhxRxfq8l5NO1M4Dx1umAUoxDg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire105-91.delta" sparkle:deltaFrom="91" length="3509886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zCvmvsj2TGyNjgvGToSKrIbdNf1vOXc0geAgo2CEqQEgALr2V6D2L+KQgwSSyGfDznbCsRGsd7pDhfkmf2NjDg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire105-84.delta" sparkle:deltaFrom="84" length="3802734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ac9/s9KKyoXRI2ulkkwFx3gsA2B6DIw85YvhHMHicrSU6tgLOQ3AW7JDQk4xXVdx9KEjMXmgQACeBhwuxKlqCg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire105-74.delta" sparkle:deltaFrom="74" length="5971354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XENBAtGnHTWXVdODsSFdRA3VLADdX+lrK011L3uciznmAu4lSSWOljrMrMk2mwkztrHio5jB8u14zIMm1vK4DA==" />
+            </sparkle:deltas>
+        <description>&lt;p&gt;You land on Spire: the crossbar is the app&amp;#x27;s map.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**The crossbar**: the front page now reads Spire · System · Federation · Endpoints · Applications · Models, and the app lands on Spire.&lt;/li&gt;
+&lt;li&gt;**The Spire home**: cards that map to the crossbar — the System card (with the desktop-computer symbol) shows this machine&amp;#x27;s live CPU, RAM, DISK and uptime in stat tiles; Federation, Endpoints, Applications, and Models cards each summarize their surface. Clicking a card goes where its tab goes.&lt;/li&gt;
+&lt;li&gt;**The System tab**: the machine the application is on — CPU, RAM, Thermal, Disk, and uptime, live, from the system&amp;#x27;s own counters.&lt;/li&gt;
+&lt;li&gt;**The Models tab**: Place a Model and what&amp;#x27;s placed, as its own door.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
+            <title>1.3.2</title>
+            <pubDate>Sun, 02 Aug 2026 19:25:07 -0600</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-104/Spire-1.3.2-104.zip" length="41959321" type="application/octet-stream" sparkle:edSignature="FQ0fvFodFowqDh67T3ti9a2la1kgOwXGwvLipg/bkdqzrpeFa4HsZyRu60f00cJZIg2xmHxPwdKqoQVRLUeOAQ==" />
+        <description>&lt;p&gt;You land on Spire: the crossbar is the app&amp;#x27;s map.&lt;/p&gt;
+&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**The crossbar**: the front page now reads Spire · System · Federation · Endpoints · Applications · Models, and the app lands on Spire.&lt;/li&gt;
+&lt;li&gt;**The Spire home**: cards that map to the crossbar — the System card (with the desktop-computer symbol) shows this machine&amp;#x27;s live CPU, RAM, DISK and uptime in stat tiles; Federation, Endpoints, Applications, and Models cards each summarize their surface. Clicking a card goes where its tab goes.&lt;/li&gt;
+&lt;li&gt;**The System tab**: the machine the application is on — CPU, RAM, Thermal, Disk, and uptime, live, from the system&amp;#x27;s own counters.&lt;/li&gt;
+&lt;li&gt;**The Models tab**: Place a Model and what&amp;#x27;s placed, as its own door.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.3.1</title>
             <pubDate>Sun, 02 Aug 2026 19:08:27 -0600</pubDate>
             <sparkle:version>98</sparkle:version>
@@ -10,10 +47,10 @@
             <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire-1.3.1-98.zip" length="41816315" type="application/octet-stream" sparkle:edSignature="QOeqpSW5dWHGTZ9vrS32cQQSnr9Fa9lfoy7E3+Upj1nZOcdSmKHXcPbY2UWzFxIwsMWcYgSqemXhZ0u/XGwhCg==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire98-91.delta" sparkle:deltaFrom="91" length="3259138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M+gz+nqoNQE7/Ji6jHCtDMiP5SWRaLkGaG7DKmb7uGVhcYSow5mNJryM8fdxhy73Sk94iZhr2ywIOEFmY/vJDA==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire98-84.delta" sparkle:deltaFrom="84" length="3642338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xxu6vmqdqZv1354WPrhGi2qgZG6oc6cVg/sE/zTWSPYW3r4gOz2uoFrbajbsnkunhUoG/ehBPMEpRGA8I664AQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire98-74.delta" sparkle:deltaFrom="74" length="5854282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z9+idPfCjLLY04+aegVXTWUJ00JuzM8oCWQLN+26ReqOIIvf4Hu0xiiBR7iMaEEPjpW8QDBmijvQRKsPW7FhBg==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire98-70.delta" sparkle:deltaFrom="70" length="7439918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FeWrcF7cCv0x1maFo5bwVXoPdQkSc3FsSrX99DJmzjdFOkJ0paRd/3BAbkXv1MZ12rY87KO70XqrlrXDDd0hDw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire98-91.delta" sparkle:deltaFrom="91" length="3259138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M+gz+nqoNQE7/Ji6jHCtDMiP5SWRaLkGaG7DKmb7uGVhcYSow5mNJryM8fdxhy73Sk94iZhr2ywIOEFmY/vJDA==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire98-84.delta" sparkle:deltaFrom="84" length="3642338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xxu6vmqdqZv1354WPrhGi2qgZG6oc6cVg/sE/zTWSPYW3r4gOz2uoFrbajbsnkunhUoG/ehBPMEpRGA8I664AQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire98-74.delta" sparkle:deltaFrom="74" length="5854282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z9+idPfCjLLY04+aegVXTWUJ00JuzM8oCWQLN+26ReqOIIvf4Hu0xiiBR7iMaEEPjpW8QDBmijvQRKsPW7FhBg==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.2-105/Spire98-70.delta" sparkle:deltaFrom="70" length="7439918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FeWrcF7cCv0x1maFo5bwVXoPdQkSc3FsSrX99DJmzjdFOkJ0paRd/3BAbkXv1MZ12rY87KO70XqrlrXDDd0hDw==" />
             </sparkle:deltas>
         <description>&lt;p&gt;The front page gains the Federation tab: a card for every system that has Spire on it.&lt;/p&gt;
 &lt;h3&gt;Added&lt;/h3&gt;
@@ -24,54 +61,6 @@
 &lt;h3&gt;Changed&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Placing a model no longer requires the Settings window — the same form lives on the Federation page&amp;#x27;s This Mac card (Settings keeps it too; both are one implementation).&lt;/li&gt;
-&lt;/ul&gt;</description></item>
-        <item>
-            <title>1.3.0</title>
-            <pubDate>Sun, 02 Aug 2026 18:15:56 -0600</pubDate>
-            <sparkle:version>91</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.0-91/Spire-1.3.0-91.zip" length="41695624" type="application/octet-stream" sparkle:edSignature="9ZN+A1UZj5xwT1E0WRQmYZ4LgjvLhidVbyKXekueR9ZqG0PTr2Z/vjISBoIN+nlLgCwX++A/R8h/W0pWCcEaCw==" />
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire91-84.delta" sparkle:deltaFrom="84" length="3331474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8sotvCUpI0cXoXOtt8f7IjhDAS2d8Wgcg2oTgifOI0WSybiH2nfNXPwxl4ElYyV+W/C/rfNbS9MGmYjHndsgBQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire91-74.delta" sparkle:deltaFrom="74" length="5742338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3AL3G03TU9Ud4IPeMGQu8Nl+jctOaKDiie6SbzYzKJZ7y3MuP5gZYdqgBpx+pk5IZ6I8HNXFwKLk7YKzivHZAg==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire91-70.delta" sparkle:deltaFrom="70" length="7343258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KunENCEygh9VEwdaLXvOLw0eqoODnkyY2N84tU/IU3nMn1ma9YV6Bott432+qKCgozw/KFD1foTyCrEdyCRdBg==" />
-            </sparkle:deltas>
-        <description>&lt;p&gt;Installing Spire now brings its core organ with it: Apple&amp;#x27;s container tool arrives as part of Spire, never as an errand.&lt;/p&gt;
-&lt;h3&gt;Added&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;**The container tool installs itself**: when first-run setup finds Apple&amp;#x27;s container tool missing, Spire downloads Apple&amp;#x27;s own signed installer (pinned version, checksum-verified, signature-verified as Apple&amp;#x27;s Containerization team, notarization-checked) and opens it in the macOS Installer. Your only touch is the standard install flow; Spire notices when the tool arrives, starts the container system, and re-checks. A retry button appears only if something failed.&lt;/li&gt;
-&lt;li&gt;**Fleet installs carry the tool**: the fleet update lane now ensures the container tool on every Studio on every pass — installed over SSH with macOS&amp;#x27;s own installer when absent — and caches the verified package on the NAS so installs stay on the local network.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Changed&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The tool is used exactly as Apple built it — Spire&amp;#x27;s entire authorship is a one-line version pin; Apple maintains everything inside the tool.&lt;/li&gt;
-&lt;/ul&gt;</description></item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Sun, 02 Aug 2026 17:42:18 -0600</pubDate>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.2.0-84/Spire-1.2.0-84.zip" length="41602275" type="application/octet-stream" sparkle:edSignature="gFci78I/kgReFtQnzkSlJBM+mYw7Z9n3+3KSI+NelycbzgEqGm6huz9jkUv8N9eKMmPfXhjEdMOM1tZSdvdvDQ==" />
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire84-74.delta" sparkle:deltaFrom="74" length="5453278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dPAmk/tjp9lZYCgVR2n91dPY5S7eJx8Pe2oqiW2W4b2aeond++AYg0cE3Ee+yTiPeRqExfYgbaRlZarX50OFCw==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.3.1-98/Spire84-70.delta" sparkle:deltaFrom="70" length="7176486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dwF1Hi9ubRSeUtu0zGW1gH7BMqy/5tcCYxOu+bk4WZvCq6SqW/yg7l04k7cfumPm87Crydz2CtC/UyHgWl4BDg==" />
-            </sparkle:deltas>
-        <description>&lt;p&gt;The front page grows a second surface: administering your endpoints is now as first-class as administering your apps.&lt;/p&gt;
-&lt;h3&gt;Added&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;**Endpoints surface**: the main window switches between Apps and Endpoints. The Endpoints page lists servers in a sidebar (this Mac today; federated Macs join as the federation lands) with status, Start/Stop/Restart, the endpoint URL displayed and copyable, and a card for each serving role.&lt;/li&gt;
-&lt;li&gt;**Live link acknowledgement**: the Hugging Face model link answers as you type — what was recognized, or exactly what&amp;#x27;s wrong — before any download.&lt;/li&gt;
-&lt;li&gt;**Token verification**: the Hugging Face access token proves itself the moment it&amp;#x27;s entered (&amp;quot;signed in as ⟨name⟩&amp;quot;, rejected, or unreachable) and is saved on verification. It&amp;#x27;s entered once, not per download.&lt;/li&gt;
-&lt;li&gt;**Living download meter**: the progress bar fills while the percentage visibly counts beside it.&lt;/li&gt;
-&lt;li&gt;**Error console**: failures present in plain language with Dismiss and View Log always offered, and an Auto-Fix button when the remedy is documented — the first: an incomplete download offers &amp;quot;Download Again.&amp;quot;&lt;/li&gt;
-&lt;li&gt;**Federation tab** in Settings: this Mac&amp;#x27;s pairing identity, moved out of Advanced, ready for the one-time pairing ceremony.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Changed&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Settings reorganized to one tab per concern: Models, Federation, Advanced.&lt;/li&gt;
-&lt;li&gt;The app-level test suite runs again (a build setting had silenced it since it was created); node identity code adopted into the app package properly.&lt;/li&gt;
 &lt;/ul&gt;</description></item>
     </channel>
 </rss>
