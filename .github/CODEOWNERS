@@ -1,0 +1,9 @@
+# Default owner and self-protection for the GitHub adapter.
+* @jeremyserna
+/.github/ @jeremyserna
+
+# Published feed, release ledger, and validation authority.
+/README.md @jeremyserna
+/spire/appcast.xml @jeremyserna
+/spire/releases.json @jeremyserna
+/scripts/ @jeremyserna
