@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "source_repository": "Truth-Forge/spire",
+  "release_repository": "Truth-Forge/spire-releases",
+  "releases": [
+    {
+      "tag": "v1.4.0-124",
+      "version": "1.4.0",
+      "build": 124,
+      "source_commit": "4a9725a5cf5ec936ab5bbb6f438fc4f247c036f2",
+      "asset": "Spire-1.4.0-124.zip",
+      "asset_sha256": "37b35a289add25ac56888cb469c92dba4ae49857c36a0ddd916a72d3720e2099"
+    },
+    {
+      "tag": "v1.3.3-106",
+      "version": "1.3.3",
+      "build": 106,
+      "source_commit": "47a09594c1e09e6b60f6f2b9757ffd56abd062bb",
+      "asset": "Spire-1.3.3-106.zip",
+      "asset_sha256": "76e1a9ad21f8561ac59294a8bfe2673dd01d08171b08960776dc5fb2a9ea34ad"
+    },
+    {
+      "tag": "v1.3.2-105",
+      "version": "1.3.2",
+      "build": 105,
+      "source_commit": "57ee10238497221867140e467bfc19b10ed72f7e",
+      "asset": "Spire-1.3.2-105.zip",
+      "asset_sha256": "f1eb7d64d07dcd0d7ff90d19c0c2becd5b493371973f7038924fb0742bd7fa93"
+    },
+    {
+      "tag": "v1.3.1-98",
+      "version": "1.3.1",
+      "build": 98,
+      "source_commit": "fc95aa41ec187ef9276cdee58d6d3dae91e5d061",
+      "asset": "Spire-1.3.1-98.zip",
+      "asset_sha256": "cdde5473d458f58592ebb5b37ffaaa0cc3fbab72c839211dcdc9dd7a0fd3da84"
+    },
+    {
+      "tag": "v1.3.0-91",
+      "version": "1.3.0",
+      "build": 91,
+      "source_commit": "0a7182eea5a298d896d8a48cd113f190dbb382ca",
+      "asset": "Spire-1.3.0-91.zip",
+      "asset_sha256": "ec793f1c0a8eb66025a948a1f8235b1046aadb516dc4367dce84af2cb583dd8c"
+    },
+    {
+      "tag": "v1.2.0-84",
+      "version": "1.2.0",
+      "build": 84,
+      "source_commit": "95186b560442175f9c06b3bdd1551abcb9e88b83",
+      "asset": "Spire-1.2.0-84.zip",
+      "asset_sha256": "589f9233b62268c8ed871bfcb675db6db735749379d60d4d8c211f9411dc03b1"
+    },
+    {
+      "tag": "v1.1.0-74",
+      "version": "1.1.0",
+      "build": 74,
+      "source_commit": "ae9a58e547e55407c9d8d74891bc45a71421f643",
+      "asset": "Spire-1.1.0-74.zip",
+      "asset_sha256": "cc5718b62739bdcc95445ab3c790e0216cfc4cc9d2a365338082e3cc5c08d536"
+    },
+    {
+      "tag": "v1.0.0-70",
+      "version": "1.0.0",
+      "build": 70,
+      "source_commit": "0dbd01835dfd8d56484bddfa6b750e2cd7fd1d44",
+      "asset": "Spire-1.0.0-70.zip",
+      "asset_sha256": "525a25668ee0ccef2f33338666e60452396f2ccc1d60788c55ce132d8fb99659"
+    }
+  ]
+}

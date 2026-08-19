@@ -1,0 +1,28 @@
+name: release validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-validation-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  release-validation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+      - name: Validate feed, provenance, and published assets
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/validate_release_feed.py --github-live
+      - name: Detect committed secrets
+        run: go run github.com/zricethezav/gitleaks/v8@v8.28.0 git --redact --no-banner
