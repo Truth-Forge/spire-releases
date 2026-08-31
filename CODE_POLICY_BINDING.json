@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "record_type": "canonical-code-policy-binding",
+  "repository": {
+    "name": "spire-releases",
+    "kind": "public-release-channel"
+  },
+  "canonical_policy": {
+    "id": "TF-PROC-CODE-CREATION-001",
+    "version": "2.2.0",
+    "content_sha256": "3c6c09fc6e9125ca90cebd1e2a1a863d71551b0ec4a519c3f0978aa01fcdf752",
+    "local_path": "/Users/jeremyserna/truth_forge/docs/ecosystem/BUILD_PROCESS_PORTABLE.html",
+    "repository": "https://github.com/Truth-Forge/truth_forge",
+    "repository_path": "docs/ecosystem/BUILD_PROCESS_PORTABLE.html"
+  },
+  "applicability": {
+    "profiles": [
+      "public-integration-reusable-glue"
+    ]
+  },
+  "enforcement": {
+    "agent_startup": "AGENTS.md",
+    "commit_config": ".pre-commit-config.yaml",
+    "hook_id": "canonical-code-policy",
+    "checker": "/Users/jeremyserna/truth_forge/scripts/gates/code_policy.py"
+  },
+  "repository_verification": {
+    "commands": [
+      "pre-commit run --all-files"
+    ]
+  }
+}
