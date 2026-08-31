@@ -7,8 +7,8 @@
   },
   "canonical_policy": {
     "id": "TF-PROC-CODE-CREATION-001",
-    "version": "2.3.0",
-    "content_sha256": "fd17ad0559ab5bb2fd88339a8f53493d980b7ffb732c8ec06ddb07fa99ffca46",
+    "version": "2.3.1",
+    "content_sha256": "b67afb2f68b16a8f3017e8a68ffe8926b70e8951f68a4532b936384f75ab6292",
     "local_path": "/Users/jeremyserna/truth_forge/docs/ecosystem/BUILD_PROCESS_PORTABLE.html",
     "repository": "https://github.com/Truth-Forge/truth_forge",
     "repository_path": "docs/ecosystem/BUILD_PROCESS_PORTABLE.html"
