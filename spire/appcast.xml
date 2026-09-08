@@ -3,6 +3,21 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.7.7</title>
+            <pubDate>Tue, 08 Sep 2026 12:08:39 -0600</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>1.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.7-340/Spire-1.7.7-340.zip" length="78311754" type="application/octet-stream" sparkle:edSignature="0fcNu7QhxSVXmGJ0K1JVGqX2ENcK9Wa+lZ4Now+Bh82sU9ZdyPE9JG2ocFSCQ9hIrL10rxyOUa200UArF8VZDw==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.7-340/Spire340-337.delta" sparkle:deltaFrom="337" length="4105342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HgTMD/io15BLnIDbwpj/zQNwPfdmIIKJHzWtN/44HHHd4la8QC/fUG0p4cszkO3ZAjjG1xaOqOozV0ovU2P2Dw==" />
+            </sparkle:deltas>
+        <description>&lt;h3&gt;Corrected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**Protected-update installation now converges an existing system support tree.** The broker installer uses atomic &lt;code&gt;mkdir(2)&lt;/code&gt; semantics, accepts &lt;code&gt;EEXIST&lt;/code&gt; only after a no-follow descriptor proves the object is a real directory, and then repairs its exact owner and mode. A pre-existing safe &lt;code&gt;/Library/Application Support/Spire&lt;/code&gt; directory no longer aborts a signed app update, while files, symbolic links, and extended ACLs still fail closed before helper publication. Directory repair and validation operate on no-follow file descriptors and re-prove path identity before the root broker trusts the result.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.7.6</title>
             <pubDate>Tue, 08 Sep 2026 11:25:22 -0600</pubDate>
             <sparkle:version>337</sparkle:version>
