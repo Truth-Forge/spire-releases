@@ -3,6 +3,23 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.7.8</title>
+            <pubDate>Tue, 08 Sep 2026 15:02:25 -0600</pubDate>
+            <sparkle:version>346</sparkle:version>
+            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire-1.7.8-346.zip" length="78327881" type="application/octet-stream" sparkle:edSignature="/OjT31mZjQGsnjvwe5RrOqhm6XQaW6eJG87mvJU13tSK7GzcEG2FPDdsOefwMcJitE+cy1eVlmgawOqUZIdtCA==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire346-340.delta" sparkle:deltaFrom="340" length="4864582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KAd4qjRLHgPEdEa42WN15B7+OL4o9cbOJIbbKsj81nQzXVyeeMXP61Wp1JlOeg+1lGTLKPZ5hOe5hNGm+FQHDQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire346-337.delta" sparkle:deltaFrom="337" length="5695726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Aqbr1Q48aUS2y0vsD0OxiL4JtOr6iaoNk/nWBvzNZX+zI6DKb4UcxB0wAeRDxEJfaNrJJN0Tie5AhBGhh5nZDw==" />
+            </sparkle:deltas>
+        <description>&lt;h3&gt;Corrected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**Remote model maintenance can finish its verification and upgrade checks.** Deep verification and engine requalification now receive a one-hour request budget, preserving longer configured budgets. Ordinary fleet status requests retain their shorter deadline. Model integrity checks, candidate admission, and rollback requirements remain enforced.&lt;/li&gt;
+&lt;li&gt;**Hermes setup shows its current stage and identifies missing conversation evidence.** Progress distinguishes container startup from agent qualification. A qualification failure names the missing tool call, result, reasoning, or final response instead of implying every part of the conversation failed.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.7.7</title>
             <pubDate>Tue, 08 Sep 2026 12:08:39 -0600</pubDate>
             <sparkle:version>340</sparkle:version>
@@ -11,7 +28,7 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.7-340/Spire-1.7.7-340.zip" length="78311754" type="application/octet-stream" sparkle:edSignature="0fcNu7QhxSVXmGJ0K1JVGqX2ENcK9Wa+lZ4Now+Bh82sU9ZdyPE9JG2ocFSCQ9hIrL10rxyOUa200UArF8VZDw==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.7-340/Spire340-337.delta" sparkle:deltaFrom="337" length="4105342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HgTMD/io15BLnIDbwpj/zQNwPfdmIIKJHzWtN/44HHHd4la8QC/fUG0p4cszkO3ZAjjG1xaOqOozV0ovU2P2Dw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire340-337.delta" sparkle:deltaFrom="337" length="4105342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HgTMD/io15BLnIDbwpj/zQNwPfdmIIKJHzWtN/44HHHd4la8QC/fUG0p4cszkO3ZAjjG1xaOqOozV0ovU2P2Dw==" />
             </sparkle:deltas>
         <description>&lt;h3&gt;Corrected&lt;/h3&gt;
 &lt;ul&gt;
