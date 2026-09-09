@@ -3,6 +3,23 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.7.9</title>
+            <pubDate>Wed, 09 Sep 2026 06:10:10 -0600</pubDate>
+            <sparkle:version>350</sparkle:version>
+            <sparkle:shortVersionString>1.7.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire-1.7.9-350.zip" length="78328373" type="application/octet-stream" sparkle:edSignature="dVMbautYvsXGfO2XRPcw2SIaQH4cp5Ipvcu6VMvJuCzzhrxHGXmCGxhRSbIKDskAWt+UMzHZc8PcJe4g88DWBA==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire350-346.delta" sparkle:deltaFrom="346" length="1043942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VGM+h5iRiNu8w89yXUingRNdplVg9fCvGW6kjF/R4DbYHLZ8swx8Nj4zuECEN/dEgXpjKedpzAlaXRPDFBJ+BQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire350-340.delta" sparkle:deltaFrom="340" length="5048494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IowpDDQ7zEKYQIZXZTqLLblOI98pv8ODUIMWriZwTDNBdUmjFB8fYW5xytU/ZXaEXqZpaz8bgqPxZJWYZAbWAw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire350-337.delta" sparkle:deltaFrom="337" length="5794334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BaYbfrv4T9xinevJrlrUjjQlrdEdjuNStUU501MVGIaU9RpOaJqdXpY8ThNlefPWvXfsSAGoWGkpHmRCtX35CA==" />
+            </sparkle:deltas>
+        <description>&lt;h3&gt;Corrected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**Computer Use can read and navigate the System telemetry screen.** The telemetry layout avoids a grouping structure that crashed OpenAI&amp;#x27;s accessibility reader, while keeping metric values, sample age, and unavailable-data messages visible. Verified with local and remote System-to-Benchmark navigation.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.7.8</title>
             <pubDate>Tue, 08 Sep 2026 15:02:25 -0600</pubDate>
             <sparkle:version>346</sparkle:version>
@@ -11,8 +28,8 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire-1.7.8-346.zip" length="78327881" type="application/octet-stream" sparkle:edSignature="/OjT31mZjQGsnjvwe5RrOqhm6XQaW6eJG87mvJU13tSK7GzcEG2FPDdsOefwMcJitE+cy1eVlmgawOqUZIdtCA==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire346-340.delta" sparkle:deltaFrom="340" length="4864582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KAd4qjRLHgPEdEa42WN15B7+OL4o9cbOJIbbKsj81nQzXVyeeMXP61Wp1JlOeg+1lGTLKPZ5hOe5hNGm+FQHDQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire346-337.delta" sparkle:deltaFrom="337" length="5695726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Aqbr1Q48aUS2y0vsD0OxiL4JtOr6iaoNk/nWBvzNZX+zI6DKb4UcxB0wAeRDxEJfaNrJJN0Tie5AhBGhh5nZDw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire346-340.delta" sparkle:deltaFrom="340" length="4864582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KAd4qjRLHgPEdEa42WN15B7+OL4o9cbOJIbbKsj81nQzXVyeeMXP61Wp1JlOeg+1lGTLKPZ5hOe5hNGm+FQHDQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire346-337.delta" sparkle:deltaFrom="337" length="5695726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Aqbr1Q48aUS2y0vsD0OxiL4JtOr6iaoNk/nWBvzNZX+zI6DKb4UcxB0wAeRDxEJfaNrJJN0Tie5AhBGhh5nZDw==" />
             </sparkle:deltas>
         <description>&lt;h3&gt;Corrected&lt;/h3&gt;
 &lt;ul&gt;
@@ -28,31 +45,11 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.7-340/Spire-1.7.7-340.zip" length="78311754" type="application/octet-stream" sparkle:edSignature="0fcNu7QhxSVXmGJ0K1JVGqX2ENcK9Wa+lZ4Now+Bh82sU9ZdyPE9JG2ocFSCQ9hIrL10rxyOUa200UArF8VZDw==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire340-337.delta" sparkle:deltaFrom="337" length="4105342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HgTMD/io15BLnIDbwpj/zQNwPfdmIIKJHzWtN/44HHHd4la8QC/fUG0p4cszkO3ZAjjG1xaOqOozV0ovU2P2Dw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire340-337.delta" sparkle:deltaFrom="337" length="4105342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HgTMD/io15BLnIDbwpj/zQNwPfdmIIKJHzWtN/44HHHd4la8QC/fUG0p4cszkO3ZAjjG1xaOqOozV0ovU2P2Dw==" />
             </sparkle:deltas>
         <description>&lt;h3&gt;Corrected&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;**Protected-update installation now converges an existing system support tree.** The broker installer uses atomic &lt;code&gt;mkdir(2)&lt;/code&gt; semantics, accepts &lt;code&gt;EEXIST&lt;/code&gt; only after a no-follow descriptor proves the object is a real directory, and then repairs its exact owner and mode. A pre-existing safe &lt;code&gt;/Library/Application Support/Spire&lt;/code&gt; directory no longer aborts a signed app update, while files, symbolic links, and extended ACLs still fail closed before helper publication. Directory repair and validation operate on no-follow file descriptors and re-prove path identity before the root broker trusts the result.&lt;/li&gt;
-&lt;/ul&gt;</description></item>
-        <item>
-            <title>1.7.6</title>
-            <pubDate>Tue, 08 Sep 2026 11:25:22 -0600</pubDate>
-            <sparkle:version>337</sparkle:version>
-            <sparkle:shortVersionString>1.7.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.6-337/Spire-1.7.6-337.zip" length="78306602" type="application/octet-stream" sparkle:edSignature="b/v/FCsMfCL0cC9lVq7QJylv7QFUO2CHD1N0vf5CmXBg7cg4TB3e3hx251SaSayMCFH3n1nhGkbnjYSm4WR5Dw==" />
-        <description>&lt;h3&gt;Added&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;**Headless application updates use a protected launchd broker.** The app publishes one owner-only typed request; a root-owned helper in &lt;code&gt;/Library/PrivilegedHelperTools&lt;/code&gt; wakes through the system launchd domain, applies only Spire&amp;#x27;s signed pull update, and returns a durable root-authored receipt. Request UUID, expected build, file ownership, permissions, age, and single-flight execution are all validated before the updater runs.&lt;/li&gt;
-&lt;li&gt;**Build 331 has a bounded one-generation migration inside the Fleet window.** Spire accepts only King&amp;#x27;s exact paired source and management digests, copies the exact hashed signed updater into protected helper storage, re-verifies its ownership, digest, and code signature, and invokes only the fixed update operation before rebinding the peer to newly observed bytes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Corrected&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;**Root no longer executes an application descendant or trusts update keys from an administrator-writable directory.** The protected updater carries immutable production feed, EdDSA, bundle, and Developer ID Team anchors, and reinstalls the model daemon in-process after the atomic swap. The replacement helper is copied into protected storage for the next run.&lt;/li&gt;
-&lt;li&gt;**A scheduled updater cannot terminate itself during the application swap.** Replacement launchd definitions are written without unloading the active updater process tree; ordinary remote calls retain their short deadline while the explicitly confirmed update receives time for download, signature checks, service recovery, and a terminal receipt.&lt;/li&gt;
-&lt;li&gt;**Interrupted application swaps recover before new work is accepted.** The protected helper holds one root-owned lock across startup recovery, brokered requests, and scheduled checks; an atomic, fsync-backed transaction journal precedes every destructive swap or rollback step. Restart recovery proves the exact signed old or new bundle and live service health before it publishes the request-bound terminal receipt and clears the journal.&lt;/li&gt;
-&lt;li&gt;**A nonempty launchd queue can never become an accidental scheduled update.** Fresh atomic writes defer, while stale staging files, malformed names, linked objects, and other persistent junk move one at a time into a root-only quarantine with a structured diagnostic. The helper performs a scheduled feed check only after a locked physical-empty observation.&lt;/li&gt;
 &lt;/ul&gt;</description></item>
     </channel>
 </rss>
