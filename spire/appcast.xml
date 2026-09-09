@@ -3,6 +3,25 @@
     <channel>
         <title>Spire</title>
         <item>
+            <title>1.7.11</title>
+            <pubDate>Wed, 09 Sep 2026 07:02:21 -0600</pubDate>
+            <sparkle:version>354</sparkle:version>
+            <sparkle:shortVersionString>1.7.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire-1.7.11-354.zip" length="78345284" type="application/octet-stream" sparkle:edSignature="yljJhbglIokJI3W9SDz7a/BZHHxu+RdNEJNGASYVvyIyqmRdj36fYVoHOpPO9Nk+mdKVCfX1ybbHY7IutCQzAA==" />
+            <sparkle:deltas>
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire354-352.delta" sparkle:deltaFrom="352" length="641106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QAlVxx/2iIa/nvfe6TmrtaLRmAH0z9csIWrp8TYVnZG7el2luj9w2woyLNvRoFKdcx/j7bjcQTdiq1p/9uSvCQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire354-350.delta" sparkle:deltaFrom="350" length="2275214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pIQ0VIu8zwDsKsZCbJGmxcDp87pQcin7tyN32jQnZwVNO77m0iU2Ml792+g7rZpfZlPDXFigR/W3YTbriv6JAw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire354-346.delta" sparkle:deltaFrom="346" length="2575102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O6P4yFhDH/uN/0WjNfLvwE3cLFbeqNtxQ1N/AamMKbBtT1tcYaD0nB+eIJZ5A+tlZLC5Mlewf0uDPaOFJiJWCw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire354-340.delta" sparkle:deltaFrom="340" length="5237654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E0ypxau44H2P0ksu4pGYpaGo/VjAc8dU6CKJCD5IgiC4bhW4/XLDFyvNpEVhPjA01cufFEr08VYaXCQKkVjqCQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire354-337.delta" sparkle:deltaFrom="337" length="5920010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7B2RFPp578daF5MvooSQTDqT2itsGUch9eamRdyMCwgo0tMtaI3bOKNHVocgRO/GThEd3WppNoE9vT2tCIgOCw==" />
+            </sparkle:deltas>
+        <description>&lt;h3&gt;Corrected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;**Hermes verification allows a slow listener lookup to finish.** Spire now waits up to 30 seconds for the local MCP listener inventory. Process ownership, authentication, and qualification checks remain unchanged, and a stalled lookup still ends with a visible timeout.&lt;/li&gt;
+&lt;/ul&gt;</description></item>
+        <item>
             <title>1.7.10</title>
             <pubDate>Wed, 09 Sep 2026 06:31:31 -0600</pubDate>
             <sparkle:version>352</sparkle:version>
@@ -11,10 +30,10 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire-1.7.10-352.zip" length="78346267" type="application/octet-stream" sparkle:edSignature="bTTGwUdcZFEHa5gCuwopcu3r1M7JLDi9lGd7bc2mzLsJOkshB5spHmP1KcEqL1n8lkQu7/r2bKxOqBmQzUYuAw==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire352-350.delta" sparkle:deltaFrom="350" length="2141506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BeWbyHlANJfYefNXSeB9qVSqgf++T99NHKEfidSHsZCq3TaO5qnfrMnSkXqa1/LJeIpkWAmcR/VCXAAuwBcYAw==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire352-346.delta" sparkle:deltaFrom="346" length="2515022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5dcjF5p9pIBOmI2zwoz7bU19jCgXQGX5ojzcgP0jgrY+BiRVTQlCHsZG/DfUrZjM8mlOWJd2heVyruzEcx0LCw==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire352-340.delta" sparkle:deltaFrom="340" length="5223878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CnuDSd6wGXu5G2gVo7R9EMAA3vQvgSjmeg4PBaf1nA8XZcNVZli9ZeHNTj/Hk73PFmsmnj+uZ861Cme+M09MDQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire352-337.delta" sparkle:deltaFrom="337" length="5889646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zMX/YAgyUREbTA3rY77vnFf0yvU6irOObK1QEmtQSP6soJQoEH/lqAP/+KTMfpiBhMXHD2LB94BW7ryk8kJzDw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire352-350.delta" sparkle:deltaFrom="350" length="2141506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BeWbyHlANJfYefNXSeB9qVSqgf++T99NHKEfidSHsZCq3TaO5qnfrMnSkXqa1/LJeIpkWAmcR/VCXAAuwBcYAw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire352-346.delta" sparkle:deltaFrom="346" length="2515022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5dcjF5p9pIBOmI2zwoz7bU19jCgXQGX5ojzcgP0jgrY+BiRVTQlCHsZG/DfUrZjM8mlOWJd2heVyruzEcx0LCw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire352-340.delta" sparkle:deltaFrom="340" length="5223878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CnuDSd6wGXu5G2gVo7R9EMAA3vQvgSjmeg4PBaf1nA8XZcNVZli9ZeHNTj/Hk73PFmsmnj+uZ861Cme+M09MDQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire352-337.delta" sparkle:deltaFrom="337" length="5889646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zMX/YAgyUREbTA3rY77vnFf0yvU6irOObK1QEmtQSP6soJQoEH/lqAP/+KTMfpiBhMXHD2LB94BW7ryk8kJzDw==" />
             </sparkle:deltas>
         <description>&lt;h3&gt;Corrected&lt;/h3&gt;
 &lt;ul&gt;
@@ -29,30 +48,13 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.9-350/Spire-1.7.9-350.zip" length="78328373" type="application/octet-stream" sparkle:edSignature="dVMbautYvsXGfO2XRPcw2SIaQH4cp5Ipvcu6VMvJuCzzhrxHGXmCGxhRSbIKDskAWt+UMzHZc8PcJe4g88DWBA==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire350-346.delta" sparkle:deltaFrom="346" length="1043942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VGM+h5iRiNu8w89yXUingRNdplVg9fCvGW6kjF/R4DbYHLZ8swx8Nj4zuECEN/dEgXpjKedpzAlaXRPDFBJ+BQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire350-340.delta" sparkle:deltaFrom="340" length="5048494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IowpDDQ7zEKYQIZXZTqLLblOI98pv8ODUIMWriZwTDNBdUmjFB8fYW5xytU/ZXaEXqZpaz8bgqPxZJWYZAbWAw==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire350-337.delta" sparkle:deltaFrom="337" length="5794334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BaYbfrv4T9xinevJrlrUjjQlrdEdjuNStUU501MVGIaU9RpOaJqdXpY8ThNlefPWvXfsSAGoWGkpHmRCtX35CA==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire350-346.delta" sparkle:deltaFrom="346" length="1043942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VGM+h5iRiNu8w89yXUingRNdplVg9fCvGW6kjF/R4DbYHLZ8swx8Nj4zuECEN/dEgXpjKedpzAlaXRPDFBJ+BQ==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire350-340.delta" sparkle:deltaFrom="340" length="5048494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IowpDDQ7zEKYQIZXZTqLLblOI98pv8ODUIMWriZwTDNBdUmjFB8fYW5xytU/ZXaEXqZpaz8bgqPxZJWYZAbWAw==" />
+                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.11-354/Spire350-337.delta" sparkle:deltaFrom="337" length="5794334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BaYbfrv4T9xinevJrlrUjjQlrdEdjuNStUU501MVGIaU9RpOaJqdXpY8ThNlefPWvXfsSAGoWGkpHmRCtX35CA==" />
             </sparkle:deltas>
         <description>&lt;h3&gt;Corrected&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;**Computer Use can read and navigate the System telemetry screen.** The telemetry layout avoids a grouping structure that crashed OpenAI&amp;#x27;s accessibility reader, while keeping metric values, sample age, and unavailable-data messages visible. Verified with local and remote System-to-Benchmark navigation.&lt;/li&gt;
-&lt;/ul&gt;</description></item>
-        <item>
-            <title>1.7.8</title>
-            <pubDate>Tue, 08 Sep 2026 15:02:25 -0600</pubDate>
-            <sparkle:version>346</sparkle:version>
-            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.4</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.8-346/Spire-1.7.8-346.zip" length="78327881" type="application/octet-stream" sparkle:edSignature="/OjT31mZjQGsnjvwe5RrOqhm6XQaW6eJG87mvJU13tSK7GzcEG2FPDdsOefwMcJitE+cy1eVlmgawOqUZIdtCA==" />
-            <sparkle:deltas>
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire346-340.delta" sparkle:deltaFrom="340" length="4864582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KAd4qjRLHgPEdEa42WN15B7+OL4o9cbOJIbbKsj81nQzXVyeeMXP61Wp1JlOeg+1lGTLKPZ5hOe5hNGm+FQHDQ==" />
-                <enclosure url="https://github.com/Truth-Forge/spire-releases/releases/download/v1.7.10-352/Spire346-337.delta" sparkle:deltaFrom="337" length="5695726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Aqbr1Q48aUS2y0vsD0OxiL4JtOr6iaoNk/nWBvzNZX+zI6DKb4UcxB0wAeRDxEJfaNrJJN0Tie5AhBGhh5nZDw==" />
-            </sparkle:deltas>
-        <description>&lt;h3&gt;Corrected&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;**Remote model maintenance can finish its verification and upgrade checks.** Deep verification and engine requalification now receive a one-hour request budget, preserving longer configured budgets. Ordinary fleet status requests retain their shorter deadline. Model integrity checks, candidate admission, and rollback requirements remain enforced.&lt;/li&gt;
-&lt;li&gt;**Hermes setup shows its current stage and identifies missing conversation evidence.** Progress distinguishes container startup from agent qualification. A qualification failure names the missing tool call, result, reasoning, or final response instead of implying every part of the conversation failed.&lt;/li&gt;
 &lt;/ul&gt;</description></item>
     </channel>
 </rss>
